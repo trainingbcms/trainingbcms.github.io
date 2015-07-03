@@ -1,0 +1,170 @@
+#header {
+	background-color:#230045;
+	height:75px;
+	width:100%;
+	top: 0;
+	left: 0;
+	color:#ffffff;
+	overflow-x:hidden;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+/* comment goes here */
+#headerText {
+	position:relative;
+	top:15%;
+	text-align: center;
+	font-size: 45px;
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+}
+
+#mavBar {
+	position:relative;
+	top:762px;
+  left:-45px;
+  z-index: 1;
+}
+
+#homeButton {
+  background: #061e2e;
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  text-align: center;
+  width: 65px;
+  height:30px;
+
+  position: relative;
+  left:25%;
+}
+
+#homeButton:hover {
+  background: #002345;
+  text-decoration: none;
+}
+
+#aboutButton {
+  background: #061e2e;
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  text-align: center;
+  width: 65px;
+  height:30px;
+
+  position: relative;
+  left:50%;
+  top: -50px;
+}
+
+#aboutButton:hover {
+  background: #002345;
+  text-decoration: none;
+}
+
+#contactButton {
+  background: #061e2e;
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  text-align: center;
+  width: 65px;
+  height:30px;
+ 
+  position: relative;
+  left:75%;
+  top:-100px;
+}
+
+#contactButton:hover {
+  background: #002345;
+  text-decoration: none;
+}
+
+#jumbotron{
+	position: relative;
+	background-image: url('../images/logo_homepage.normal.v107.svg');
+  background-repeat: no-repeat;
+  background-size: 700px;
+  background-position: top center;
+  height: 100%;
+
+
+
+}
+
+#searchButton {
+  background: #230045;
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  text-align: center;
+  width: 250px;
+  height: 25px;
+  font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;  
+  position: relative;
+  top:510px;
+  left:42%;
+}
+
+#searchButton:hover {
+  background: #002345;
+  text-decoration: none;
+}
+
+.horizBar{
+  position: relative;
+  width:100%;
+  height: 71px;
+  background-color: #230045;
+  opacity: .4;
+  z-index: 0;
+  top:556px;
+}
+
+.button {
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+#mainPageText{
+  width:40%;
+  height:70%;
+  margin-left:auto;
+  margin-right:auto;
+  text-align: justify;
+}
+
+.horizRule {
+  height:5px;
+  width: 100%;
+  background-color: black;
+}
+
+#footer {
+  background-color: #230045;
+  height: 25px;
+  margin-top: 40px;
+
+}
+
+#footer #trademark {
+  color: #ffffff;
+  text-align: center;
+}
